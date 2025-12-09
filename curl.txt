@@ -1,0 +1,19 @@
+curl 'https://ae-backend-dashboard-service-prod.api.auralis.ai/learning-center/index' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8,ar;q=0.7,hr;q=0.6' \
+  -H 'authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InBTVndrVVhxUnlwNmxMLWJidW5ITCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYXBwLmF1cmFsaXMuYWkvIiwic3ViIjoiYXV0aDB8NjZkYTIwODc3NTcxYzM5N2E4NGJlMjE3IiwiYXVkIjpbImh0dHBzOi8vYXVyYWxpcy1leGNlbGxlbmNlLWJlLWVjcy1zZXJ2aWNlLXByb2QuenVyby1wcm9kLXZwbi51cy5lMDEuYzAxLmdldHp1cm8uY29tIiwiaHR0cHM6Ly9hdXJhbGlzLWFpLXByb2QudXMuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTc2NTI1ODI1OSwiZXhwIjoxNzY1MzQ0NjU5LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIG9mZmxpbmVfYWNjZXNzIiwib3JnX2lkIjoib3JnXzFVTFlEc2NPWmFmS0NyY1QiLCJhenAiOiJTMUhQZzNGTWhsZFk2c0JkVU9vY0tnNTZwUVcxS1F0cCIsInBlcm1pc3Npb25zIjpbImNyZWF0ZTpjb252ZXJzYXRpb25zXHQiLCJjcmVhdGU6d2lkZ2V0IiwiZGVsZXRlOmRvY3VtZW50IiwiZGVsZXRlOmxlYXJuaW5nLWNlbnRlciIsImRlbGV0ZTp2aWRlbyIsImRlbGV0ZTp3ZWIiLCJpbmRleDphdWRpbyIsImluZGV4OmRvY3VtZW50IiwiaW5kZXg6cXVlcnkiLCJpbmRleDp0ZXh0IiwiaW5kZXg6dmlkZW8iLCJpbmRleDp3ZWIiLCJpbmRleDp6ZW5kZXNrIiwicmVhZDpjb252ZXJzYXRpb25zIiwicmVhZDppbmRleGVkLXdlYi1kb2N1bWVudHMiLCJyZWFkOmluc2lnaHRzIiwicmVhZDpsZWFybmluZy1jZW50ZXIiLCJyZWFkOndpZGdldCIsInNlYXJjaDpkb2N1bWVudCIsInNlYXJjaDpzYXZlZC1xdWVyeSIsInNlYXJjaDp2aWRlbyIsInNlYXJjaDp3ZWIiLCJzeW5jOmRvYyIsInN5bmM6dmlkZW8iLCJzeW5jOndlYiIsInVwZGF0ZTpjb252ZXJzYXRpb25zIiwidXBkYXRlOmRvYyIsInVwZGF0ZTp3aWRnZXQiLCJ3ZWJzaXRlOmdldGFsbHBhZ2VzIl19.iFAmdhMvCzBcJtW5wApSiLNTCaywGR4TCi3V08_SqvgW8aCE5mDIvk6P1Wz-LG_o0HxzA6iY93s8Bp3u6yGmIft2_XUnkpdT4q3lIrI45SI6UW0iJmVspblrNtStPAkttaXtFzU7oVVAWsI7RLkYFVPhuGg8qtJVLXsdcUebx4eaJYo1ifO0n7ElpWdqj5ucvbtYjvBhEqeLQuMTyFv6pfmSnDLdopjOHxZ1Eo0sVJwkepgQgp4GgWLLL4x4VbMd5HvSb0UGc9-Hv2tuTEESp1YB2yWfRgqJMa6U700morrM3iOAPUDb-cwDFKJGxSiQCCCavSH6j3b1kxh4GCwIxQ' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://app.auralis.ai' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://app.auralis.ai/' \
+  -H 'sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36' \
+  -H 'x-auralis-app: dashboard' \
+  --data-raw '{"widget_id":"d64219b2-eaf8-4599-8c43-4d5155909a0c","url":[{"url":"https://learn.microsoft.com/en-us/dynamics365/finance/get-started/whats-new-home-page","isForceUpdate":false}],"sourceType":"web","import_full_website":false,"dataTypeIds":["669b9227-fc26-4f18-b38d-5953883742b7"]}'
